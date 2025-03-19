@@ -798,6 +798,11 @@ transform = Transform3D(1, 0, 0, 0, 0.965926, -0.258819, 0, 0.258819, 0.965926, 
 size = Vector3(3.78418, 0.02, 0.660889)
 material = SubResource("StandardMaterial3D_res0g")
 
+[node name="ProtoCSGBox3D45" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.471, 0.055, -11.65)
+size = Vector3(1.618, 0.7, 0.3)
+material = SubResource("StandardMaterial3D_res0g")
+
 [node name="ProtoCSGBox3D44" parent="." instance=ExtResource("1_xk3e0")]
 transform = Transform3D(1, 0, 0, 0, 0.984808, -0.173648, 0, 0.173648, 0.984808, 5.54776, 1.61683, -11.9892)
 size = Vector3(4.075, 0.03, 0.493)
@@ -919,7 +924,7 @@ size = Vector3(0.05, 0.1, 0.922201)
 material = null
 
 [node name="ProtoCSGBox3D42" parent="." instance=ExtResource("1_xk3e0")]
-transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91069e-15, 5.2238, 0.329264, -11.75)
+transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91069e-15, 5.2238, 0.430048, -11.75)
 size = Vector3(0.05, 3.55759, 0.1)
 material = null
 
@@ -1131,32 +1136,32 @@ size = Vector3(4, 2, 0.4)
 material = SubResource("StandardMaterial3D_u8flm")
 
 [node name="ProtoCSGBox3D16" parent="." instance=ExtResource("1_xk3e0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1, -11.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1, -11.65)
 size = Vector3(0.5, 0.8, 0.25)
 material = SubResource("StandardMaterial3D_0crix")
 
 [node name="ProtoCSGBox3D32" parent="." instance=ExtResource("1_xk3e0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -11.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -11.65)
 size = Vector3(0.5, 0.8, 0.25)
 material = SubResource("StandardMaterial3D_ppe4y")
 
 [node name="ProtoCSGBox3D35" parent="." instance=ExtResource("1_xk3e0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, -11.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, -11.65)
 size = Vector3(0.5, 0.8, 0.25)
 material = SubResource("StandardMaterial3D_l7f60")
 
 [node name="ProtoCSGBox3D36" parent="." instance=ExtResource("1_xk3e0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.0121051, -11.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.0121051, -11.65)
 size = Vector3(0.5, 0.6, 0.25)
 material = SubResource("StandardMaterial3D_rvb4q")
 
 [node name="ProtoCSGBox3D37" parent="." instance=ExtResource("1_xk3e0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0.0121051, -11.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0.012, -11.65)
 size = Vector3(0.5, 0.6, 0.25)
 material = SubResource("StandardMaterial3D_board")
 
 [node name="ProtoCSGBox3D33" parent="." instance=ExtResource("1_xk3e0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1, -11.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1, -11.65)
 size = Vector3(0.3, 0.8, 0.25)
 material = SubResource("StandardMaterial3D_72lhp")
 
