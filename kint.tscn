@@ -1,0 +1,1166 @@
+[gd_scene load_steps=97 format=3 uid="uid://cjccin477cbid"]
+
+[ext_resource type="PackedScene" uid="uid://dxw7cledbpiia" path="res://addons/proto-csgs/proto_csg_box_3d.tscn" id="1_xk3e0"]
+[ext_resource type="Texture2D" uid="uid://c3j32ie64jc80" path="res://addons/proto-csgs/textures/dark/texture_08.png" id="2_ausre"]
+[ext_resource type="Texture2D" uid="uid://cat78tyl3yv22" path="res://addons/proto-csgs/textures/light/texture_08.png" id="3_uqsja"]
+[ext_resource type="Script" path="res://camera.gd" id="5_qypx1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8tkok"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yyq4v"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nu3dx"]
+resource_local_to_scene = true
+albedo_color = Color(1, 0.901961, 0.901961, 0.980392)
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vqlbu"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1yhym"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8n7dc"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q7xx8"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_btcsj"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n3hkt"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c4gnr"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hu3nh"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f8jn6"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pgkh3"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ldiqk"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oy8ob"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wg32w"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d0mly"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bcn35"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nooob"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m48db"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_joy78"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4niwk"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tv7vq"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w63dr"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cbw5r"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_03qx4"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yonuq"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xyauu"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_40ih7"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jdv8t"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lucb7"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_373ms"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fe14c"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hfbv1"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ygdc"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rmrnv"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cacal"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_le8ef"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f00lf"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w0elg"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7qlkq"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ofrot"]
+resource_local_to_scene = true
+transparency = 1
+albedo_color = Color(0.156863, 0.156863, 0.156863, 0.980392)
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_res0g"]
+resource_local_to_scene = true
+transparency = 1
+albedo_color = Color(0.156863, 0.156863, 0.156863, 0.980392)
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tjl3x"]
+load_path = "res://.godot/imported/texture_08.png-68c21b38a5d876920adc10324d3856ba.s3tc.ctex"
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pyb5t"]
+resource_local_to_scene = true
+albedo_color = Color(0.156863, 0.156863, 0.156863, 0.980392)
+albedo_texture = SubResource("CompressedTexture2D_tjl3x")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_efnbj"]
+load_path = "res://.godot/imported/texture_08.png-68c21b38a5d876920adc10324d3856ba.s3tc.ctex"
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mf118"]
+resource_local_to_scene = true
+albedo_color = Color(0.156863, 0.156863, 0.156863, 0.901961)
+albedo_texture = SubResource("CompressedTexture2D_efnbj")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_w5cnm"]
+sky_top_color = Color(0.146741, 0.479287, 0.667229, 1)
+sky_horizon_color = Color(0.792157, 0.654902, 0.670588, 1)
+
+[sub_resource type="Sky" id="Sky_6pueo"]
+sky_material = SubResource("ProceduralSkyMaterial_w5cnm")
+
+[sub_resource type="Environment" id="Environment_04iyd"]
+background_mode = 2
+sky = SubResource("Sky_6pueo")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hcc03"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_txcwj"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nrri7"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vuols"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ablv"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5wvtv"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1mgx0"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sgpn"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6g4f6"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2n5ym"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_et7k8"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4t4rj"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fkb1b"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x6rlr"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xnoa8"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6qf1d"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uiref"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jfikf"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pkrwu"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4hh5f"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gh7bb"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u0svo"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p0j4i"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vb1ac"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_24wol"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ituob"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uaoi5"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4qdwy"]
+resource_local_to_scene = true
+albedo_color = Color(0.244776, 0.244776, 0.244776, 1)
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4vl6v"]
+resource_local_to_scene = true
+albedo_color = Color(0.244776, 0.244776, 0.244776, 1)
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_leoa3"]
+resource_local_to_scene = true
+albedo_color = Color(0.244776, 0.244776, 0.244776, 1)
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7abuk"]
+resource_local_to_scene = true
+albedo_color = Color(0.244776, 0.244776, 0.244776, 1)
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hu430"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o2kna"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l2rgj"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u8flm"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_ausre")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0crix"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ppe4y"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l7f60"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rvb4q"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_board"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_72lhp"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8vyqt"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("3_uqsja")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+shadow_enabled = true
+
+[node name="ProtoCSGBox3D" parent="." instance=ExtResource("1_xk3e0")]
+size = Vector3(7.95, 1, 7.95)
+material = SubResource("StandardMaterial3D_8tkok")
+
+[node name="ProtoCSGBox3D18" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.878808, 0, -2.74629)
+size = Vector3(6.19238, 1, 7.44258)
+material = SubResource("StandardMaterial3D_yyq4v")
+
+[node name="ProtoCSGBox3D2" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+size = Vector3(8, 5, 8)
+material = SubResource("StandardMaterial3D_nu3dx")
+
+[node name="ProtoCSGBox3D" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.36009, -1.47992, -2.44185)
+operation = 2
+size = Vector3(2, 2.04016, 2)
+material = SubResource("StandardMaterial3D_vqlbu")
+
+[node name="ProtoCSGBox3D2" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.499, -1.69003, -2.44185)
+operation = 2
+size = Vector3(2, 2.7099, 2)
+material = SubResource("StandardMaterial3D_1yhym")
+
+[node name="ProtoCSGBox3D9" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.90026, -1.65305, -3.09167)
+operation = 2
+size = Vector3(1.3, 2.634, 3.283)
+material = SubResource("StandardMaterial3D_8n7dc")
+
+[node name="ProtoCSGBox3D15" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.28497, 1.77743, -3.09167)
+operation = 2
+size = Vector3(2.06943, 2.634, 3.283)
+material = SubResource("StandardMaterial3D_q7xx8")
+
+[node name="ProtoCSGBox3D10" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.04171, -1.65305, -3.09167)
+operation = 2
+size = Vector3(0.233862, 2.634, 3.283)
+material = SubResource("StandardMaterial3D_btcsj")
+
+[node name="ProtoCSGBox3D3" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8679, -0.14256, -2.442)
+operation = 2
+size = Vector3(1.26221, 0.7, 2)
+material = SubResource("StandardMaterial3D_n3hkt")
+
+[node name="ProtoCSGBox3D13" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.18784, -0.711936, -1.91461)
+operation = 2
+size = Vector3(0.2, 0.6, 0.8)
+material = SubResource("StandardMaterial3D_c4gnr")
+
+[node name="ProtoCSGBox3D4" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.76571, -1.50896, -1.3512)
+operation = 2
+size = Vector3(0.9, 2, 2)
+material = SubResource("StandardMaterial3D_hu3nh")
+
+[node name="ProtoCSGBox3D14" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.86546, 1.45567, -1.3512)
+operation = 2
+size = Vector3(0.700488, 2, 2)
+material = SubResource("StandardMaterial3D_f8jn6")
+
+[node name="ProtoCSGBox3D6" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.282514, -1.00896, 1.01963)
+operation = 2
+size = Vector3(7, 3, 4)
+material = SubResource("StandardMaterial3D_pgkh3")
+
+[node name="ProtoCSGBox3D8" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.10036, -1.00896, -1.85229)
+operation = 2
+size = Vector3(8.26501, 3, 4)
+material = SubResource("StandardMaterial3D_ldiqk")
+
+[node name="ProtoCSGBox3D5" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.224, -1.00937, 1.012)
+operation = 2
+size = Vector3(0.9, 1.3, 1.6)
+material = SubResource("StandardMaterial3D_oy8ob")
+
+[node name="ProtoCSGBox3D16" parent="ProtoCSGBox3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.875, 0, -5)
+size = Vector3(6.25, 5, 3)
+material = SubResource("StandardMaterial3D_wg32w")
+
+[node name="ProtoCSGBox3D7" parent="ProtoCSGBox3D2/ProtoCSGBox3D16" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.33601, -1.2, -0.281225)
+operation = 2
+size = Vector3(0.9, 1.3, 4)
+material = SubResource("StandardMaterial3D_d0mly")
+
+[node name="ProtoCSGBox3D11" parent="ProtoCSGBox3D2/ProtoCSGBox3D16" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.332145, -1.2, -0.781225)
+operation = 2
+size = Vector3(0.9, 1.3, 5)
+material = SubResource("StandardMaterial3D_bcn35")
+
+[node name="ProtoCSGBox3D12" parent="ProtoCSGBox3D2/ProtoCSGBox3D16" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.541, -1.2, -0.281)
+operation = 2
+size = Vector3(1.595, 1.3, 4)
+material = SubResource("StandardMaterial3D_nooob")
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1, 0.025, 0)
+
+[node name="ProtoCSGBox3D3" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.78559, 0.1, -4)
+size = Vector3(1.23145, 0.25, 1)
+material = SubResource("StandardMaterial3D_m48db")
+
+[node name="ProtoCSGBox3D7" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.77387, 1.47762, -2.42615)
+size = Vector3(0.04, 0.04, 2.25781)
+material = SubResource("StandardMaterial3D_joy78")
+
+[node name="ProtoCSGBox3D8" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.77387, 0.814421, -2.42615)
+size = Vector3(0.04, 0.04, 2.25781)
+material = SubResource("StandardMaterial3D_4niwk")
+
+[node name="ProtoCSGBox3D9" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.77814, 0.995549, -3.19324)
+size = Vector3(0.04, 1, 0.04)
+material = SubResource("StandardMaterial3D_tv7vq")
+
+[node name="ProtoCSGBox3D10" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.77814, 0.995549, -1.52697)
+size = Vector3(0.04, 1, 0.04)
+material = SubResource("StandardMaterial3D_w63dr")
+
+[node name="ProtoCSGBox3D18" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.42661, 2.82502, -1.52697)
+visible = false
+size = Vector3(0.04, 0.7, 0.04)
+material = SubResource("StandardMaterial3D_cbw5r")
+
+[node name="ProtoCSGBox3D19" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.32881, 2.99612, -1.52697)
+visible = false
+size = Vector3(0.04, 0.5, 0.04)
+material = SubResource("StandardMaterial3D_03qx4")
+
+[node name="ProtoCSGBox3D21" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.43887, 0.92123, -1.50203)
+visible = false
+size = Vector3(0.6, 0.04, 0.04)
+material = SubResource("StandardMaterial3D_yonuq")
+
+[node name="ProtoCSGBox3D22" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.60131, 1, -4.15)
+visible = false
+size = Vector3(0.3, 0.04, 0.04)
+material = SubResource("StandardMaterial3D_xyauu")
+
+[node name="ProtoCSGBox3D20" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.50723, 2.91185, -3.39424)
+size = Vector3(0.04, 0.5, 0.04)
+material = SubResource("StandardMaterial3D_40ih7")
+
+[node name="ProtoCSGBox3D11" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.77814, 0.995549, -2.38847)
+size = Vector3(0.04, 1, 0.04)
+material = SubResource("StandardMaterial3D_jdv8t")
+
+[node name="ProtoCSGBox3D12" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.79948, 0.995549, -2.38847)
+size = Vector3(0.01, 0.1, 2)
+material = SubResource("StandardMaterial3D_lucb7")
+
+[node name="ProtoCSGBox3D23" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.12068, 1.65374, -0.585988)
+visible = false
+size = Vector3(0.01, 0.1, 1.60608)
+material = SubResource("StandardMaterial3D_373ms")
+
+[node name="ProtoCSGBox3D13" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.79542, 1.3278, -2.38618)
+size = Vector3(0.01, 0.1, 2)
+material = SubResource("StandardMaterial3D_fe14c")
+
+[node name="ProtoCSGBox3D17" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0162, 1.6678, -1.03898)
+size = Vector3(0.125, 5, 0.125)
+material = SubResource("StandardMaterial3D_hfbv1")
+
+[node name="ProtoCSGBox3D40" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 0.966079, 0.258246, 0, -0.258246, 0.966079, 4.0162, 4.84521, -1.23677)
+size = Vector3(0.125, 1.52509, 0.125)
+material = SubResource("StandardMaterial3D_5ygdc")
+
+[node name="ProtoCSGBox3D14" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.79948, 1.16507, -2.38847)
+size = Vector3(0.01, 0.1, 2)
+material = SubResource("StandardMaterial3D_rmrnv")
+
+[node name="ProtoCSGBox3D15" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.79948, 0.811758, -2.38847)
+size = Vector3(0.01, 0.1, 2)
+material = SubResource("StandardMaterial3D_cacal")
+
+[node name="ProtoCSGBox3D16" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.79948, 0.642272, -2.38847)
+size = Vector3(0.01, 0.1, 2)
+material = SubResource("StandardMaterial3D_le8ef")
+
+[node name="ProtoCSGBox3D4" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.78048, 0.35, -3.75)
+size = Vector3(1.25, 0.25, 1)
+material = SubResource("StandardMaterial3D_f00lf")
+
+[node name="ProtoCSGBox3D5" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.78048, -0.15, -4.25)
+size = Vector3(1.25, 0.25, 1)
+material = SubResource("StandardMaterial3D_w0elg")
+
+[node name="ProtoCSGBox3D6" parent="CSGCombiner3D" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.78511, -0.4, -4.5)
+size = Vector3(1.25, 0.25, 1)
+material = SubResource("StandardMaterial3D_7qlkq")
+
+[node name="ProtoCSGBox3D21" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(0.996195, 0.0871557, 0, -0.0871557, 0.996195, 0, 0, 0, 1, 3.24534, 5.45762, -2.96176)
+size = Vector3(2, 0.02, 3)
+material = SubResource("StandardMaterial3D_ofrot")
+
+[node name="ProtoCSGBox3D43" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 0.965926, -0.258819, 0, 0.258819, 0.965926, 5.55386, 1.45634, -11.5025)
+size = Vector3(3.78418, 0.02, 0.660889)
+material = SubResource("StandardMaterial3D_res0g")
+
+[node name="ProtoCSGBox3D44" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 0.984808, -0.173648, 0, 0.173648, 0.984808, 5.54776, 1.61683, -11.9892)
+size = Vector3(4.075, 0.03, 0.493)
+material = SubResource("StandardMaterial3D_pyb5t")
+
+[node name="ProtoCSGBox3D31" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, -1, 0, 0.707107, -3.09086e-08, -0.707107, 0.707107, -3.09086e-08, 0.707107, 3.79, 5.555, 1.445)
+size = Vector3(3.934, 0.4, 3.94726)
+material = SubResource("StandardMaterial3D_mf118")
+
+[node name="ProtoCSGBox3D5" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4, 6, 0.5)
+size = Vector3(0.25, 0.8, 0.45)
+material = null
+
+[node name="ProtoCSGBox3D12" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4, 6, 2)
+size = Vector3(0.25, 0.8, 0.45)
+material = null
+
+[node name="ProtoCSGBox3D13" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.15, 3.5, 0.764399)
+size = Vector3(0.25, 0.5, 0.6)
+material = null
+
+[node name="ProtoCSGBox3D17" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.15, 3.5, 2.91383)
+size = Vector3(0.25, 0.5, 0.6)
+material = null
+
+[node name="ProtoCSGBox3D22" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.26611, 3.02125, -6.62586)
+size = Vector3(0.25, 0.5, 0.6)
+material = null
+
+[node name="ProtoCSGBox3D23" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.27018, 3.02125, -6.62586)
+size = Vector3(0.25, 0.5, 0.6)
+material = null
+
+[node name="ProtoCSGBox3D25" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.27018, 5.02125, -6.62586)
+size = Vector3(0.25, 0.5, 0.6)
+material = null
+
+[node name="ProtoCSGBox3D24" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.5, 3.021, -6.626)
+size = Vector3(0.25, 0.5, 0.6)
+material = null
+
+[node name="ProtoCSGBox3D26" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.5, 5.021, -6.626)
+size = Vector3(0.25, 0.5, 0.6)
+material = null
+
+[node name="ProtoCSGBox3D9" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3.4, 5.8, 1.5)
+size = Vector3(0.5, 0.55, 0.2)
+material = null
+
+[node name="ProtoCSGBox3D20" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3.4, 5.8, 0.016)
+size = Vector3(0.5, 0.55, 0.2)
+material = null
+
+[node name="ProtoCSGBox3D7" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.028, 2.55, -1.25098)
+size = Vector3(0.05, 0.05, 0.390039)
+material = null
+
+[node name="ProtoCSGBox3D19" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 4.028, 1.85119, -1.03175)
+size = Vector3(0.05, 0.1, 4.62668)
+material = null
+
+[node name="ProtoCSGBox3D28" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 0.295725, -0.955273, 0, 0.955273, 0.295725, 4.028, 4.81373, -1.2172)
+size = Vector3(0.05, 0.1, 1.60293)
+material = null
+
+[node name="ProtoCSGBox3D29" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 3.69737, 5.60043, 0.440142)
+size = Vector3(0.05, 0.1, 3.07065)
+material = null
+
+[node name="ProtoCSGBox3D14" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.028, 2.50003, -1.24375)
+size = Vector3(0.05, 0.05, 0.4)
+material = null
+
+[node name="ProtoCSGBox3D8" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3.95, 2.55, -1.465)
+size = Vector3(0.05, 0.05, 0.2)
+material = null
+
+[node name="ProtoCSGBox3D15" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 3.9, 2.5, -1.465)
+size = Vector3(0.05, 0.05, 0.3)
+material = null
+
+[node name="ProtoCSGBox3D11" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.944, 2.525, -1.465)
+size = Vector3(0.05, 0.1, 1.85504)
+material = null
+
+[node name="ProtoCSGBox3D38" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.01, -0.499, -3.48182)
+size = Vector3(0.05, 0.1, 5.01116)
+material = null
+
+[node name="ProtoCSGBox3D40" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.45964, -0.499, -9.14602)
+size = Vector3(0.05, 0.1, 5.26107)
+material = null
+
+[node name="ProtoCSGBox3D41" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91069e-15, 3.495, -0.0851239, -11.75)
+size = Vector3(0.05, 0.1, 0.922201)
+material = null
+
+[node name="ProtoCSGBox3D42" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91069e-15, 5.2238, 0.329264, -11.75)
+size = Vector3(0.05, 3.55759, 0.1)
+material = null
+
+[node name="ProtoCSGBox3D39" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 3.74229, -0.499, -6.24971)
+size = Vector3(0.05, 0.1, 0.792358)
+material = null
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2.85587, 0.982, -6.72019)
+script = ExtResource("5_qypx1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_04iyd")
+
+[node name="CSGCombiner3D2" type="CSGCombiner3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.96151, 0)
+
+[node name="ProtoCSGBox3D7" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.92369, 1.47762, -2.63269)
+size = Vector3(0.04, 0.04, 2.6709)
+material = SubResource("StandardMaterial3D_hcc03")
+
+[node name="ProtoCSGBox3D8" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.92369, 0.814421, -2.63514)
+size = Vector3(0.04, 0.04, 2.67578)
+material = SubResource("StandardMaterial3D_txcwj")
+
+[node name="ProtoCSGBox3D9" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.92796, 0.995549, -3.94811)
+size = Vector3(0.04, 1, 0.04)
+material = SubResource("StandardMaterial3D_nrri7")
+
+[node name="ProtoCSGBox3D19" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 2.28233, 2.53286, -2.97988)
+size = Vector3(0.04, 2.81226, 0.04)
+material = SubResource("StandardMaterial3D_vuols")
+
+[node name="ProtoCSGBox3D20" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 2.28233, 2.39733, -2.97988)
+size = Vector3(0.04, 2.81226, 0.04)
+material = SubResource("StandardMaterial3D_5ablv")
+
+[node name="ProtoCSGBox3D10" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.92796, 0.995549, -1.52697)
+size = Vector3(0.04, 1, 0.04)
+material = SubResource("StandardMaterial3D_5wvtv")
+
+[node name="ProtoCSGBox3D11" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.92796, 0.995549, -2.71051)
+size = Vector3(0.04, 1, 0.04)
+material = SubResource("StandardMaterial3D_1mgx0")
+
+[node name="ProtoCSGBox3D12" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9493, 0.995549, -2.7167)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_6sgpn")
+
+[node name="ProtoCSGBox3D13" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9493, 1.33225, -2.7167)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_6g4f6")
+
+[node name="ProtoCSGBox3D14" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9493, 1.16507, -2.7167)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_2n5ym")
+
+[node name="ProtoCSGBox3D15" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9493, 0.811758, -2.7167)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_et7k8")
+
+[node name="ProtoCSGBox3D16" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9493, 0.642272, -2.7167)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_4t4rj")
+
+[node name="ProtoCSGBox3D17" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 0.75, 0, 1, 0, -1, 0, -3.27835e-08, 2.92586, 1.47762, -3.94969)
+size = Vector3(0.04, 0.04, 2.68262)
+material = SubResource("StandardMaterial3D_fkb1b")
+
+[node name="ProtoCSGBox3D18" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 0.75, 0, 1, 0, -1, 0, -3.27835e-08, 2.82593, 0.814421, -3.93722)
+size = Vector3(0.04, 0.04, 2.67578)
+material = SubResource("StandardMaterial3D_x6rlr")
+
+[node name="ProtoCSGBox3D21" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 0.75, 0, 1, 0, -1, 0, -3.27835e-08, 2.99566, 0.995549, -3.96102)
+size = Vector3(0.04, 1, 0.04)
+material = SubResource("StandardMaterial3D_xnoa8")
+
+[node name="ProtoCSGBox3D22" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 0.75, 0, 1, 0, -1, 0, -3.27835e-08, 3.017, 0.995549, -3.96721)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_6qf1d")
+
+[node name="ProtoCSGBox3D23" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 0.75, 0, 1, 0, -1, 0, -3.27835e-08, 3.017, 1.33225, -3.96721)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_uiref")
+
+[node name="ProtoCSGBox3D24" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 0.75, 0, 1, 0, -1, 0, -3.27835e-08, 3.017, 1.16507, -3.96721)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_jfikf")
+
+[node name="ProtoCSGBox3D25" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 0.75, 0, 1, 0, -1, 0, -3.27835e-08, 3.017, 0.811758, -3.96721)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_pkrwu")
+
+[node name="ProtoCSGBox3D26" parent="CSGCombiner3D2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(-4.37114e-08, 0, 0.75, 0, 1, 0, -1, 0, -3.27835e-08, 3.017, 0.642272, -3.96721)
+size = Vector3(0.01, 0.1, 2.5)
+material = SubResource("StandardMaterial3D_4hh5f")
+
+[node name="CSGCombiner3D3" type="CSGCombiner3D" parent="."]
+
+[node name="Lámpa" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.82507, 2.93449, -1.51654)
+size = Vector3(0.1, 0.15, 0.1)
+material = SubResource("StandardMaterial3D_gh7bb")
+
+[node name="ProtoCSGBox3D20" parent="Lámpa" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.0208397, -0.0043695, -0.0298157)
+operation = 2
+size = Vector3(0.05, 0.12, 0.05)
+material = SubResource("StandardMaterial3D_u0svo")
+
+[node name="ProtoCSGBox3D21" parent="Lámpa" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.0202248, -0.0043695, -0.0298157)
+operation = 2
+size = Vector3(0.05, 0.12, 0.05)
+material = SubResource("StandardMaterial3D_p0j4i")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lámpa"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0187738)
+
+[node name="Lámpa2" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.339, 2.5, -6.16)
+size = Vector3(0.1, 0.15, 0.1)
+material = SubResource("StandardMaterial3D_vb1ac")
+
+[node name="ProtoCSGBox3D20" parent="Lámpa2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.0208397, -0.0043695, -0.0298157)
+operation = 2
+size = Vector3(0.05, 0.12, 0.05)
+material = SubResource("StandardMaterial3D_24wol")
+
+[node name="ProtoCSGBox3D21" parent="Lámpa2" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.0202248, -0.0043695, -0.0298157)
+operation = 2
+size = Vector3(0.05, 0.12, 0.05)
+material = SubResource("StandardMaterial3D_ituob")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lámpa2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0187738)
+
+[node name="ProtoCSGBox3D27" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0198941, 8.5, -1.25)
+size = Vector3(8, 6, 11)
+material = SubResource("StandardMaterial3D_uaoi5")
+
+[node name="ProtoCSGBox3D28" parent="ProtoCSGBox3D27" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 0.707107, -0.707107, 0, 0.707107, 0.707107, 0, 2.12132, 4.83907)
+operation = 2
+size = Vector3(8, 6, 17)
+material = SubResource("StandardMaterial3D_4qdwy")
+
+[node name="ProtoCSGBox3D29" parent="ProtoCSGBox3D27" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 1.72059, -5.16093)
+operation = 2
+size = Vector3(8, 6, 17)
+material = SubResource("StandardMaterial3D_4vl6v")
+
+[node name="ProtoCSGBox3D30" parent="ProtoCSGBox3D27" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 3.28975, -3.45045, -5.16093)
+operation = 2
+size = Vector3(2, 6, 17)
+material = SubResource("StandardMaterial3D_leoa3")
+
+[node name="ProtoCSGBox3D31" parent="ProtoCSGBox3D27" instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 3.03835, -8.53931, -1.28848)
+operation = 2
+size = Vector3(2, 6, 17)
+material = SubResource("StandardMaterial3D_7abuk")
+
+[node name="ProtoCSGBox3D3" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.31073, -0.5, -2.5815)
+visible = false
+size = Vector3(0.7, 0.1, 5.837)
+material = SubResource("StandardMaterial3D_hu430")
+
+[node name="ProtoCSGBox3D4" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.84918, -0.5, -8.55404)
+size = Vector3(1.2, 0.1, 7)
+material = SubResource("StandardMaterial3D_o2kna")
+
+[node name="ProtoCSGBox3D6" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.60362, -0.5, -4.87517)
+size = Vector3(1, 0.1, 2.92684)
+material = SubResource("StandardMaterial3D_l2rgj")
+
+[node name="ProtoCSGBox3D10" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, 0.5, -12)
+size = Vector3(4, 2, 0.4)
+material = SubResource("StandardMaterial3D_u8flm")
+
+[node name="ProtoCSGBox3D16" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1, -11.5)
+size = Vector3(0.5, 0.8, 0.25)
+material = SubResource("StandardMaterial3D_0crix")
+
+[node name="ProtoCSGBox3D32" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -11.5)
+size = Vector3(0.5, 0.8, 0.25)
+material = SubResource("StandardMaterial3D_ppe4y")
+
+[node name="ProtoCSGBox3D35" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, -11.5)
+size = Vector3(0.5, 0.8, 0.25)
+material = SubResource("StandardMaterial3D_l7f60")
+
+[node name="ProtoCSGBox3D36" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.0121051, -11.5)
+size = Vector3(0.5, 0.6, 0.25)
+material = SubResource("StandardMaterial3D_rvb4q")
+
+[node name="ProtoCSGBox3D37" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0.0121051, -11.5)
+size = Vector3(0.5, 0.6, 0.25)
+material = SubResource("StandardMaterial3D_board")
+
+[node name="ProtoCSGBox3D33" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1, -11.5)
+size = Vector3(0.3, 0.8, 0.25)
+material = SubResource("StandardMaterial3D_72lhp")
+
+[node name="ProtoCSGBox3D34" parent="." instance=ExtResource("1_xk3e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.34581, 1, -11.5)
+size = Vector3(0.3, 0.8, 0.25)
+material = SubResource("StandardMaterial3D_8vyqt")

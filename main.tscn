@@ -1,0 +1,54 @@
+[gd_scene load_steps=9 format=3 uid="uid://noxalkuvqqwu"]
+
+[ext_resource type="Script" path="res://tetőtér.gd" id="1_o8pj0"]
+[ext_resource type="Script" path="res://kerítés.gd" id="2_1x6yl"]
+[ext_resource type="Script" path="res://gerenda.gd" id="3_alhpi"]
+[ext_resource type="Script" path="res://fal.gd" id="4_lgx7w"]
+[ext_resource type="PackedScene" uid="uid://brhkysca1w11d" path="res://falon.tscn" id="5_yefgi"]
+[ext_resource type="PackedScene" uid="uid://dcwah48nto3qe" path="res://gerendán.tscn" id="6_ehutp"]
+[ext_resource type="PackedScene" uid="uid://cjccin477cbid" path="res://kint.tscn" id="7_o7biw"]
+[ext_resource type="PackedScene" uid="uid://uleh3vwg5tvd" path="res://kutyahaz.tscn" id="8_udbdk"]
+
+[node name="main" type="Node3D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(2, 2)
+
+[node name="Tetőtér" type="Button" parent="Control/GridContainer"]
+layout_mode = 2
+text = "Tetőtér"
+script = ExtResource("1_o8pj0")
+
+[node name="Kerítés" type="Button" parent="Control/GridContainer"]
+layout_mode = 2
+text = "Kerítés"
+script = ExtResource("2_1x6yl")
+
+[node name="Gerenda" type="Button" parent="Control/GridContainer"]
+layout_mode = 2
+text = "Gerenda"
+script = ExtResource("3_alhpi")
+
+[node name="Fal" type="Button" parent="Control/GridContainer"]
+layout_mode = 2
+text = "Fal"
+script = ExtResource("4_lgx7w")
+
+[node name="ver" type="Node3D" parent="."]
+
+[node name="falon" parent="ver" groups=["ver"] instance=ExtResource("5_yefgi")]
+
+[node name="gerendan" parent="ver" groups=["ver"] instance=ExtResource("6_ehutp")]
+
+[node name="kint" parent="ver" groups=["ver"] instance=ExtResource("7_o7biw")]
+
+[node name="tetoter" parent="ver" groups=["ver"] instance=ExtResource("8_udbdk")]
